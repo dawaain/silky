@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main() {
+	double nilai;
+
+	cout << "=== program penentuan Nilai Mutu ===" << endl;
+	cout << "Masukkan Nilai Angka : ";
+	cin >> nilai;
+
+	cout << "\nHasil : " << endl;
+
+	if (nilai > 89) {
+		cout << "Nilai Mutu : A" << endl;
+		cout << "keterangan : Naik Kelas " << endl;
+	}
+	else if (nilai > 80 && nilai <= 89) {
+		cout << "Nilai Mutu : B" << endl;
+		cout << "Keterangan : Naik Kelas " << endl;
+	}
+	else if (nilai > 70 && nilai <= 80) {
+		cout << "Nilai Mutu : C" << endl;
+		cout << "Keterangan : Tinggal Kelas " << endl;
+	}
+	else if (nilai > 60 && nilai <= 70) {
+		cout << "Nilai Mutu : D" << endl;
+		cout << "Keterangan : Tinggal Kelas " << endl;
+	}
+	else if (nilai <= 60) {
+		cout << "Nilai Mutu : E" << endl;
+		cout << "Keterangan : Tinggal Kelas " << endl;
+	}
+
+}
+	return 0;
